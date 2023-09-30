@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h3>Welcome to the index page !</h3>
+<h2 th:text="${fname}">First Name</h2>
+<h2 th:text="${lname}">Last Name</h2>
+<h2 th:text="${pass}">Password</h2>
+<h2 th:text="${dob}">DOB</h2>
+<h2 th:text="${gender}">Gender</h2>
+
+
+<table border="2">
+<th>First_Name</th>
+<th>Last_Name</th>
+<th>Password</th>
+<th>DOB</th>
+<th>Gender</th>
+<tr>
+<td th:text="${fname}"></td>
+<td th:text="${lname}"></td>
+<td th:text="${pass}"></td>
+<td th:text="${dob}"></td>
+<td th:text="${gender}"></td>
+</tr>
+</table>
+</body>
+</html>
