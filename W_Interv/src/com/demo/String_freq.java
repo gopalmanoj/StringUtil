@@ -15,7 +15,7 @@ public class String_freq {
 		System.out.println(m); 
 
 		System.out.println("Frequency is calculated");
-
+		System.out.println("This is stored into remote repository");
 	}
 
 }
