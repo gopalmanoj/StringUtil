@@ -14,6 +14,8 @@ public class String_freq {
 				.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()));
 		System.out.println(m); 
 
+		System.out.println("Frequency is calculated");
+
 	}
 
 }
